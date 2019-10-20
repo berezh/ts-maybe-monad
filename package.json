@@ -1,8 +1,9 @@
 {
     "name": "ts-maybe-monad",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "",
-    "main": "index.js",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
     "scripts": {
         "test": "jest --config jestconfig.json",
         "build": "tsc",
