@@ -1,0 +1,24 @@
+{
+    "name": "ts-maybe-monad",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/berezh/ts-maybe-monad.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/berezh/ts-maybe-monad/issues"
+    },
+    "homepage": "https://github.com/berezh/ts-maybe-monad#readme",
+    "devDependencies": {
+        "typescript": "^3.6.4"
+    }
+}
