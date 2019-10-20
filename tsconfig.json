@@ -5,8 +5,7 @@
         "declaration": true,
         "outDir": "./lib",
         "strict": true,
-        "lib": ["es2015", "es2016"],
-        "watch": true
+        "lib": ["es2015", "es2016"]
     },
     "include": ["src"],
     "exclude": ["node_modules", "**/__tests__/*"]
