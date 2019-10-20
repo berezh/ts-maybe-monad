@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "jest --config jestconfig.json",
         "build": "tsc",
         "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
         "lint": "tslint -p tsconfig.json"
@@ -21,7 +21,10 @@
     },
     "homepage": "https://github.com/berezh/ts-maybe-monad#readme",
     "devDependencies": {
+        "@types/jest": "^24.0.19",
+        "jest": "^24.9.0",
         "prettier": "^1.18.2",
+        "ts-jest": "^24.1.0",
         "tslint": "^5.20.0",
         "tslint-config-prettier": "^1.18.0",
         "typescript": "^3.6.4"
