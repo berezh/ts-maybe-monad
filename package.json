@@ -1,6 +1,6 @@
 {
     "name": "ts-maybe-monad",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -12,7 +12,8 @@
         "prepublishOnly": "npm test && npm run lint",
         "preversion": "npm run lint",
         "version": "npm run format && git add -A src",
-        "postversion": "git push && git push --tags"
+        "postversion": "git push && git push --tags",
+        "lint:fix": "tslint --fix -p tsconfig.json"
     },
     "repository": {
         "type": "git",
