@@ -1,11 +1,11 @@
 {
     "name": "ts-maybe-monad",
-    "version": "1.0.3",
+    "version": "1.2.1",
     "description": "",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "scripts": {
-        "test": "jest --config jestconfig.json",
+        "test": "jest --config jest.config.js",
         "build": "tsc",
         "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
         "lint": "tslint -p tsconfig.json",
@@ -23,10 +23,15 @@
     "keywords": [
         "maybe",
         "monad",
-        "typescript"
+        "typescript",
+        "optional",
+        "nullable",
+        "undefined",
+        "null",
+        "if"
     ],
     "author": "Vadym Poberezhnyi",
-    "license": "ISC",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/berezh/ts-maybe-monad/issues"
     },
