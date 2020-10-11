@@ -32,7 +32,8 @@ export class MaybeInstance<TIn> {
         }
     }
 
-    public return(defaultValue?: TIn): TIn;
+    public return<TOut>(): TOut | undefined;
+    public return(defaultValue: TIn): TIn;
     public return<TOut>(accessor: (p: TIn) => TOut): TOut | undefined;
     public return<TOut>(accessor: (p: TIn) => TOut | undefined, defaultValue: TOut): TOut;
 
